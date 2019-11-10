@@ -10,7 +10,7 @@ export class FormLembreteComponent {
   @Input() lembrete: Lembrete = <Lembrete>{};
   @Output() outputLembrete: EventEmitter<Lembrete> = new EventEmitter();
 
-  onSubmint() {
+  onSubmit() {
     this.outputLembrete.emit(this.lembrete);
   }
 

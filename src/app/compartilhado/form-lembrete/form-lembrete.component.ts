@@ -13,6 +13,4 @@ export class FormLembreteComponent {
   onSubmit() {
     this.outputLembrete.emit(this.lembrete);
   }
-
-
 }
